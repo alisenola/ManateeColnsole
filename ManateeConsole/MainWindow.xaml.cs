@@ -20,147 +20,118 @@ namespace ManateeConsole
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Boolean maximized;
+        private Button backButton;
 
         public MainWindow()
         {
             InitializeComponent();
-            maximized = false;
+            
+            backButton = new Button();
+            backButton.Content = "Back";
+            backButton.Width = 60;
+            backButton.Height = 30;
+            backButton.Margin = new Thickness(20);
+            backButton.HorizontalAlignment = HorizontalAlignment.Right;
+            backButton.VerticalAlignment = VerticalAlignment.Top;
         }
 
         private void OnMouseDownSonar1(object sender, MouseButtonEventArgs e)
         {
-            if (maximized)
-            {
-                MinimizeTopGrid();
-            }
-            else
-            {
-                MainGrid.RowDefinitions.Clear();
+            MainGrid.RowDefinitions.Clear();
 
-                MiddleGrid.Visibility = Visibility.Hidden;
-                BottomGrid.Visibility = Visibility.Hidden;
+            MiddleGrid.Visibility = Visibility.Hidden;
+            BottomGrid.Visibility = Visibility.Hidden;
 
-                TopGrid.ColumnDefinitions.Clear();
+            TopGrid.ColumnDefinitions.Clear();
 
-                sonar2.Visibility = Visibility.Hidden;
-                sonar3.Visibility = Visibility.Hidden;
+            sonar2.Visibility = Visibility.Hidden;
+            sonar3.Visibility = Visibility.Hidden;
 
-                maximized = true;
-            }
+            backButton.Click += new RoutedEventHandler(MinimizeTopGrid);
+            TopGrid.Children.Add(backButton);
         }
 
         private void OnMouseDownSonar2(object sender, MouseButtonEventArgs e)
         {
-            if (maximized)
-            {
-                MinimizeTopGrid();
-            }
-            else
-            {
-                MainGrid.RowDefinitions.Clear();
+            MainGrid.RowDefinitions.Clear();
 
-                MiddleGrid.Visibility = Visibility.Hidden;
-                BottomGrid.Visibility = Visibility.Hidden;
+            MiddleGrid.Visibility = Visibility.Hidden;
+            BottomGrid.Visibility = Visibility.Hidden;
 
-                TopGrid.ColumnDefinitions.Clear();
+            TopGrid.ColumnDefinitions.Clear();
 
-                sonar1.Visibility = Visibility.Hidden;
-                sonar3.Visibility = Visibility.Hidden;
+            sonar1.Visibility = Visibility.Hidden;
+            sonar3.Visibility = Visibility.Hidden;
 
-                maximized = true;
-            }
+            backButton.Click += new RoutedEventHandler(MinimizeTopGrid);
+            TopGrid.Children.Add(backButton);
         }
 
         private void OnMouseDownSonar3(object sender, MouseButtonEventArgs e)
         {
-            if (maximized)
-            {
-                MinimizeTopGrid();
-            }
-            else
-            {
-                MainGrid.RowDefinitions.Clear();
+            MainGrid.RowDefinitions.Clear();
 
-                MiddleGrid.Visibility = Visibility.Hidden;
-                BottomGrid.Visibility = Visibility.Hidden;
+            MiddleGrid.Visibility = Visibility.Hidden;
+            BottomGrid.Visibility = Visibility.Hidden;
 
-                TopGrid.ColumnDefinitions.Clear();
+            TopGrid.ColumnDefinitions.Clear();
 
-                sonar1.Visibility = Visibility.Hidden;
-                sonar2.Visibility = Visibility.Hidden;
+            sonar1.Visibility = Visibility.Hidden;
+            sonar2.Visibility = Visibility.Hidden;
 
-                maximized = true;
-            }
+            backButton.Click += new RoutedEventHandler(MinimizeTopGrid);
+            TopGrid.Children.Add(backButton);
         }
 
         private void OnMouseDownVideo1(object sender, MouseButtonEventArgs e)
         {
-            if (maximized)
-            {
-                MinimizeMiddleGrid();
-            }
-            else
-            {
-                MainGrid.RowDefinitions.Clear();
+            MainGrid.RowDefinitions.Clear();
 
-                TopGrid.Visibility = Visibility.Hidden;
-                BottomGrid.Visibility = Visibility.Hidden;
+            TopGrid.Visibility = Visibility.Hidden;
+            BottomGrid.Visibility = Visibility.Hidden;
 
-                MiddleGrid.ColumnDefinitions.Clear();
+            MiddleGrid.ColumnDefinitions.Clear();
 
-                video2.Visibility = Visibility.Hidden;
-                video3.Visibility = Visibility.Hidden;
+            video2.Visibility = Visibility.Hidden;
+            video3.Visibility = Visibility.Hidden;
 
-                maximized = true;
-            }
+            backButton.Click += new RoutedEventHandler(MinimizeMiddleGrid);
+            MiddleGrid.Children.Add(backButton);
         }
 
         private void OnMouseDownVideo2(object sender, MouseButtonEventArgs e)
         {
-            if (maximized)
-            {
-                MinimizeMiddleGrid();
-            }
-            else
-            {
-                MainGrid.RowDefinitions.Clear();
+            MainGrid.RowDefinitions.Clear();
 
-                TopGrid.Visibility = Visibility.Hidden;
-                BottomGrid.Visibility = Visibility.Hidden;
+            TopGrid.Visibility = Visibility.Hidden;
+            BottomGrid.Visibility = Visibility.Hidden;
 
-                MiddleGrid.ColumnDefinitions.Clear();
+            MiddleGrid.ColumnDefinitions.Clear();
 
-                video1.Visibility = Visibility.Hidden;
-                video3.Visibility = Visibility.Hidden;
+            video1.Visibility = Visibility.Hidden;
+            video3.Visibility = Visibility.Hidden;
 
-                maximized = true;
-            }
+            backButton.Click += new RoutedEventHandler(MinimizeMiddleGrid);
+            MiddleGrid.Children.Add(backButton);
         }
 
         private void OnMouseDownVideo3(object sender, MouseButtonEventArgs e)
         {
-            if (maximized)
-            {
-                MinimizeMiddleGrid();
-            }
-            else
-            {
-                MainGrid.RowDefinitions.Clear();
+            MainGrid.RowDefinitions.Clear();
 
-                TopGrid.Visibility = Visibility.Hidden;
-                BottomGrid.Visibility = Visibility.Hidden;
+            TopGrid.Visibility = Visibility.Hidden;
+            BottomGrid.Visibility = Visibility.Hidden;
 
-                MiddleGrid.ColumnDefinitions.Clear();
+            MiddleGrid.ColumnDefinitions.Clear();
 
-                video1.Visibility = Visibility.Hidden;
-                video2.Visibility = Visibility.Hidden;
+            video1.Visibility = Visibility.Hidden;
+            video2.Visibility = Visibility.Hidden;
 
-                maximized = true;
-            }
+            backButton.Click += new RoutedEventHandler(MinimizeMiddleGrid);
+            MiddleGrid.Children.Add(backButton);
         }
 
-        private void MinimizeTopGrid()
+        private void MinimizeTopGrid(object sender, RoutedEventArgs e)
         {
             MainGrid.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(1, GridUnitType.Star) });
             MainGrid.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(1, GridUnitType.Star) });
@@ -190,10 +161,11 @@ namespace ManateeConsole
             MiddleGrid.Visibility = Visibility.Visible;
             BottomGrid.Visibility = Visibility.Visible;
 
-            maximized = false;
+            backButton.Click -= new RoutedEventHandler(MinimizeTopGrid);
+            TopGrid.Children.Remove(backButton);
         }
 
-        private void MinimizeMiddleGrid()
+        private void MinimizeMiddleGrid(object sender, RoutedEventArgs e)
         {
             MainGrid.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(1, GridUnitType.Star) });
             MainGrid.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(1, GridUnitType.Star) });
@@ -219,7 +191,8 @@ namespace ManateeConsole
             MiddleGrid.Visibility = Visibility.Visible;
             BottomGrid.Visibility = Visibility.Visible;
 
-            maximized = false;
+            backButton.Click -= new RoutedEventHandler(MinimizeMiddleGrid);
+            MiddleGrid.Children.Remove(backButton);
         }
     }
 }
