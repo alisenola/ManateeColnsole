@@ -1,17 +1,17 @@
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\bin\Debug\ManateeConsole.exe.config
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\bin\Debug\ManateeConsole.exe
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\bin\Debug\ManateeConsole.pdb
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.csprojResolveAssemblyReference.cache
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\MainWindow.g.cs
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\App.g.cs
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole_MarkupCompile.cache
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole_MarkupCompile.lref
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\MainWindow.baml
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.g.resources
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.Properties.Resources.resources
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.csproj.GenerateResource.Cache
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.exe
-c:\users\tyler\documents\visual studio 2015\Projects\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.pdb
+G:\Work\visual studio\ManateeConsole\ManateeConsole\bin\Debug\ManateeConsole.exe.config
+G:\Work\visual studio\ManateeConsole\ManateeConsole\bin\Debug\ManateeConsole.exe
+G:\Work\visual studio\ManateeConsole\ManateeConsole\bin\Debug\ManateeConsole.pdb
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.csprojResolveAssemblyReference.cache
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\MainWindow.g.cs
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\App.g.cs
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole_MarkupCompile.cache
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole_MarkupCompile.lref
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\MainWindow.baml
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.g.resources
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.Properties.Resources.resources
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.csproj.GenerateResource.Cache
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.exe
+G:\Work\visual studio\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.pdb
 E:\Projects\C# Project\ManateeConsole\ManateeConsole\bin\Debug\ManateeConsole.exe.config
 E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.exe
 E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.pdb
@@ -26,3 +26,11 @@ E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\MainWindow.baml
 E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.g.resources
 E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.Properties.Resources.resources
 E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\ManateeConsole.csproj.GenerateResource.Cache
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\SonarSettings.g.cs
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\SonarSettings.baml
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\CameraSettings.g.cs
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\PanTiltSettings.g.cs
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\SystemDiagnostics.g.cs
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\CameraSettings.baml
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\PanTiltSettings.baml
+E:\Projects\C# Project\ManateeConsole\ManateeConsole\obj\Debug\SystemDiagnostics.baml

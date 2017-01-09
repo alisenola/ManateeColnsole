@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManateeConsole", "ManateeConsole\ManateeConsole.csproj", "{D37BD1F4-1FC8-4C25-99A2-8F0C5E53C3AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManateeConsole", "ManateeConsole\ManateeConsole.csproj", "{DE2943E1-2AEC-465C-B54C-285465BDEA24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D37BD1F4-1FC8-4C25-99A2-8F0C5E53C3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D37BD1F4-1FC8-4C25-99A2-8F0C5E53C3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D37BD1F4-1FC8-4C25-99A2-8F0C5E53C3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D37BD1F4-1FC8-4C25-99A2-8F0C5E53C3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2943E1-2AEC-465C-B54C-285465BDEA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2943E1-2AEC-465C-B54C-285465BDEA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2943E1-2AEC-465C-B54C-285465BDEA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2943E1-2AEC-465C-B54C-285465BDEA24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
